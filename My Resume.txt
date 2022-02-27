@@ -1,0 +1,361 @@
+                                       <!-- html code -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anish Parkhi Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <img src="Images/MyPhoto.png" alt="My Photo">
+        <h3>About Me</h3>
+        <p class="about-me">My name is Anish Parkhi. I am first year undergraduate at SRM Chennai. I like to develope websites. I like to work with organizations</p>
+        <h3 class="connect">Connect With me</h3>
+        <div class="linkdin">
+            <img src="Images/linkedin.png" alt="LinkdIn">
+            <a href="http://www.linkedin.com/in/anish-parkhi-92b532200/" target="blank">LinkdIn</a>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="name">
+            <p>Anish Parkhi</p>
+        </div>
+        <!--
+        <div class="contact">
+            <img src="Images/location.png" alt="Address" class="address">
+            <p class="address-detail">129/1,'Ramkunj',Laltaki,Ahmednagar</p>
+            <img src="Images/email.png" alt="Email" class="email">
+            <p class="email-id">anishparkhi03@gmail.com</p>
+            <img class="phone" src="Images/phone-call.png" alt="phone">
+            <p class="phone-number"><span>+91</span>9607406484</p> 
+        </div>
+        -->
+        <hr class="first-hr">
+        <div class="qualifications"><h3>Qualifications</h3></div>
+        <div class="education">
+            <table>
+                <tr>
+                    <th>Qualification</th>
+                    <th>School/Institution</th>
+                    <th>Year of qualification</th>
+                </tr>
+                <tr>
+                    <td>10 th</td>
+                    <td>Bhausaheb Firodiya High School</td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td>12 th</td>
+                    <td>Bhausaheb Firodiya Junior Collage</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>B.Tech in Computer Science</td>
+                    <td>SRM Institute of science and technology</td>
+                    <td>2025</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <div class="left-container">
+         <div class="skills">
+            <div class="heading"><h3>Skills<h3></div>
+                <img class="coding" src="Images/coding.png" alt="Coding Img">
+            <p class="description1"><strong>Web Developement:</strong>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo ullamcorper a lacus vestibulum sed arcu non odio. Diam volutpat commodo sed egestas egestas fringilla phasellus.</p>
+         </div>
+         <div class="skills">
+             <img src="Images/python.png" alt="PythonImage" class="python">
+            <p class="description"><strong>Python Launguage:</strong>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo ullamcorper a lacus vestibulum sed arcu non odio. Diam volutpat commodo sed egestas egestas fringilla phasellus.</p>
+         </div>
+         <div class="skills">
+             <img src="Images/blogging.png" alt="blogging Image" class="blog">
+            <p class="description"><strong>Content Writing:</strong>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo ullamcorper a lacus vestibulum sed arcu non odio. Diam volutpat commodo sed egestas egestas fringilla phasellus.</p>
+         </div>
+        </div> 
+        <hr>
+        <div class="hobbies">
+            <h3>Hobbies</h3>
+            <ol class="list">
+                <li>Book Reading</li>
+                <li>Listening Bhajan</li>
+                <li>Swimming</li>
+                <li>Developement</li>
+            </ol>
+        </div>
+        <hr>
+        <div class="my-project">
+          <h3>My Projects</h3>
+          <a href="https://anish-parkhi.github.io/My-Site/" target="blank">My Website</a>
+          <a href="" target="blank">Gym Website</a>
+        </div>
+    </div>
+</body>
+</html>
+ 
+
+
+
+
+
+
+                                  /*CSS Code*/
+
+body {
+  background-color: #b5eaea;
+  margin-bottom: 2%;
+}
+hr {
+  border-style: dotted none none none;
+  border-width: 4px;
+  height: 0px;
+  width: 97%;
+  opacity: 0.2;
+  margin-top: 5%;
+}
+.first-hr {
+  border-style: dotted none none none;
+  border-width: 4px;
+  height: 0px;
+  width: 97%;
+  opacity: 0.2;
+  margin-top: 1%;
+}
+
+.main-container {
+  margin-left: 16%;
+}
+.name {
+  margin-left: 3%;
+  margin-top: 1%;
+  font-size: 44px;
+  display: inline-block;
+}
+th {
+  margin: 2%;
+}
+/*
+table,th,td{
+    border: 2px solid black;
+} 
+*/
+table {
+  width: 80%;
+  border-collapse: collapse;
+  /* background-color: #950101; */
+}
+tr:nth-child(even) {
+  background-color: #fffea9;
+}
+tr:nth-child(odd) {
+  background-color: #dad992;
+}
+th {
+  height: 45px;
+}
+td {
+  height: 40px;
+  text-align: center;
+}
+.education {
+  margin-left: 10%;
+  margin-bottom: 2%;
+}
+.qualifications {
+  font-size: 32px;
+  margin-left: 3%;
+  margin-bottom: 2%;
+  margin-top: 3%;
+}
+li {
+  display: inline-block;
+}
+.webdev {
+  display: inline-block;
+}
+
+.heading h3 {
+  font-size: 38px;
+  margin-bottom: 1%;
+}
+/*
+.desciption{
+    font-size: 20px;
+    margin-left: 3%;
+    width: 100%;
+    line-height: 2;
+}
+*/
+.skills {
+  font-size: 23px;
+  margin-left: 3%;
+}
+strong {
+  font-size: 27px;
+}
+.heading p {
+  font-size: 23px;
+  margin-bottom: 0px;
+}
+.description {
+  line-height: 140%;
+  margin-top: 5%;
+}
+
+/*
+.left-container{
+    width: 80%;
+}*/
+li {
+  display: block;
+}
+.hobbies h3 {
+  font-size: 38px;
+  margin-bottom: 1%;
+  margin-left: 3%;
+}
+.list {
+  font-size: 23px;
+  line-height: 2;
+}
+.coding {
+  width: 7%;
+  float: left;
+  margin-right: 3%;
+}
+.python {
+  width: 7%;
+  float: left;
+  margin-right: 3%;
+}
+.blog {
+  width: 7%;
+  float: left;
+  margin-right: 3%;
+}
+.my-project h3 {
+  font-size: 38px;
+  margin-bottom: 3%;
+  margin-left: 3%;
+}
+.my-project a {
+  margin-left: 3%;
+  font-size: 23px;
+  margin-top: 1%;
+  padding: 1%;
+  border-radius: 6%;
+  background-color: #ff2626;
+  text-decoration: none;
+  color: white;
+}
+.my-project a:hover {
+  margin-left: 3%;
+  font-size: 23px;
+  margin-top: 1%;
+  padding: 1%;
+  border-radius: 6%;
+  background-color: #bd1616;
+}
+/* Sidebar Styling */
+.sidebar {
+  height: 100%;
+  width: 16%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #064663;
+  overflow-x: hidden;
+  padding-top: 20px;
+  color: #fe7e6d;
+}
+.sidebar img {
+  width: 80%;
+  margin-left: 8%;
+}
+.sidebar h3 {
+  text-align: center;
+  font-size: 32px;
+}
+.about-me {
+  font-size: 17px;
+  margin: 5%;
+}
+.connect {
+  text-align: center;
+  font-size: 29px;
+}
+.linkdin img {
+  width: 20%;
+  float: right;
+  padding-right: 20%;
+}
+.linkdin a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 6%;
+}
+.linkdin {
+  text-align: right;
+}
+/*
+.address {
+  width: 36px;
+  display: inline-block;
+  position: absolute;
+  top: 7%;
+  right: 30%;
+}
+.address-detail {
+  width: 36px;
+  display: inline-block;
+  position: absolute;
+  top: 5%;
+  right: 27%;
+}
+.email {
+  width: 36px;
+  display: inline-block;
+  position: absolute;
+  top: 22%;
+  right: 30%;
+}
+.email-id {
+  width: 36px;
+  display: inline-block;
+  position: absolute;
+  top: 20%;
+  right: 27%;
+}
+.phone {
+  width: 36px;
+  display: inline-block;
+  position: absolute;
+  top: 37%;
+  right: 30%;
+}
+.phone-number {
+  width: 36px;
+  display: inline-block;
+  position: absolute;
+  top: 20%;
+  right: 27%;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+                        
